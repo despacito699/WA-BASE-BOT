@@ -1,13 +1,13 @@
 {
-    "name": "WA-BASE-BOT",
+    "name": "Vellion-MD",
     "version": "1.2",
-    "description": "A Simple Whatsapp Bot",
+    "description": "A Simple Whatsapp Bot created by Andrew",
     "main": "index.js",
     "type": "commonjs",
     "scripts": {
         "start": "node index.js"
     },
-    "author": "Debraj",
+    "author": "Andrew",
     "license": "MIT",
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
