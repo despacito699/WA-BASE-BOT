@@ -11,7 +11,6 @@ With this base, you can easily add new commands every day and build your own ful
 - System tools and media commands
 - Beginner-friendly code for learning
 
-Each episode adds 1–2 new commands so you can follow along and grow your bot step by step — even if you don’t know how to code.
 
 🧠 Need to edit the bot files?  
 👉 [Download MT Manager](https://t.me/hectorbotsfiles/83)
