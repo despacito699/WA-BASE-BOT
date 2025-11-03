@@ -92,9 +92,9 @@ const clientstart = async() => {
     });
     
     if (config().status.terminal && !sock.authState.creds.registered) {
-        const phoneNumber = await question('enter your WhatsApp number, starting with 91:\nnumber WhatsApp: ');
+        const phoneNumber = await question('Enter your WhatsApp number, start with 233:\nnumber WhatsApp: ');
         const code = await sock.requestPairingCode(phoneNumber);
-        console.log(chalk.green(`your pairing code: ` + chalk.bold.green(code)));
+        console.log(chalk.green(`YAour pairing code: ` + chalk.bold.green(code)));
     }
     
     store.bind(sock.ev);
@@ -146,14 +146,16 @@ const clientstart = async() => {
             const botNumber = sock.user.id.split(':')[0] + '@s.whatsapp.net';
             sock.sendMessage(botNumber, {
                 text:
-                    `👑 *${config().settings.title}* is Online!\n\n` +
-                    `> 📌 User: ${sock.user.name || 'Unknown'}\n` +
+                    `👑 *${config().settings.title}* is Online!\n\n` 
+                  `> 
+                          ~Vellion-MD
+                  📌 User: ${sock.user.name || 'Unknown'}\n` +
                     `> ⚡ Prefix: [ . ]\n` +
                     `> 🚀 Mode: ${sock.public ? 'Public' : 'Self'}\n` +
                     `> 🤖 Version: 1.0.0\n` +
-                    `> 👑 Owner: Debraj\n\n` +
+                    `> 👑 Owner: Andrew\n\n` +
                     `✅ Bot connected successfully\n` +
-                    `📢 Join our channel: https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E`,
+                    `📢 Join our channel: https://whatsapp.com/channel/`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
@@ -461,4 +463,5 @@ const originalStderrWrite = process.stderr.write;
 process.stderr.write = function (msg, encoding, fd) {
     if (typeof msg === 'string' && ignoredErrors.some(e => msg.includes(e))) return;
     originalStderrWrite.apply(process.stderr, arguments);
+
 };
