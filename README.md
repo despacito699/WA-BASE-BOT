@@ -16,11 +16,10 @@ Each episode adds 1–2 new commands so you can follow along and grow your bot s
 🧠 Need to edit the bot files?  
 👉 [Download MT Manager](https://t.me/hectorbotsfiles/83)
 
-👨‍💻 Base Project by [Debraj](https://t.me/debrajzero)  
-🎥 Tutorials & Upgrades by **Hector Manuel**  
+👨‍💻 Base Project by [Andrew](https://t.me/)  
+🎥 Tutorials & Upgrades by **King Rio**  
 🔗 Library: [Baileys by @WhiskeySockets](https://github.com/WhiskeySockets/Baileys)
+ 
+💬 Telegram: [Official Channel](https://t.me/)
 
-📺 YouTube: [Hector Manuel](https://youtube.com/@official_manuel)  
-💬 Telegram: [Official Channel](https://t.me/kangoxmd)
-
-> “Small daily progress builds big results.” – Hector Manuel
+> “Small daily progress builds big results.” – Andrew
