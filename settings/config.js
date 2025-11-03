@@ -5,8 +5,8 @@
 const fs = require('fs')
 
 const config = {
-    owner: "-",
-    botNumber: "-",
+    owner: "Andrew",
+    botNumber: "233500850221",
     setPair: "K0MRAID1",
     thumbUrl: "https://i.imgur.com/IkEv97P.jpeg",
     session: "sessions",
@@ -16,7 +16,7 @@ const config = {
         reactsw: false
     },
     message: {
-        owner: "no, this is for owners only",
+        owner: "BAKA!, this is for owners only",
         group: "this is for groups only",
         admin: "this command is for admin only",
         private: "this is specifically for private chat"
@@ -28,14 +28,14 @@ const config = {
         wait: 'Please wait...'
     },
     settings: {
-        title: "Simple WA Base Bot",
-        packname: 'WA-BASE',
-        description: "this script was created by Debraj",
-        author: 'https://www.github.com/OfficialKango',
-        footer: "饾棈饾柧饾梾饾柧饾梹饾棆饾柡饾梿: @official_kango"
+        title: "Vellion-MD",
+        packname: 'Vellion-MD , Andrew',
+        description: "this script was created by Andrew",
+        author: 'https://www.github.com/despacito699',
+        footer: "饾棈饾柧饾梾饾柧饾梹饾棆饾柡饾梿: @Andrew_tech"
     },
     newsletter: {
-        name: "Simple WA Base Bot",
+        name: "Vellion-MD",
         id: "0@newsletter"
     },
     api: {
@@ -43,8 +43,8 @@ const config = {
         apikey: "hector"
     },
     sticker: {
-        packname: "Simple WA Base Bot",
-        author: "WA-BASE"
+        packname: "Vellion-MD",
+        author: "Andrew"
     }
 }
 
